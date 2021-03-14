@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <link href="light.css" rel="stylesheet" id="theme-link">
+        <link rel="shortcut icon" href="img/favicon.png" type="image">
+
+        <title>Szkoła Podstawowa im. Jana Pawła II w Tłuszczu</title>
+        <meta name="title" content="Szkoła Podstawowa im. Jana Pawła II w Tłuszczu">
+        <meta name="description" content="Oficjalna strona Szkoły Podstawowej im. Jana Pawła II w Tłuszczu">
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Szkoła Podstawowa im. Jana Pawła II w Tłuszczu">
+        <meta property="og:description" content="Oficjalna strona Szkoły Podstawowej im. Jana Pawła II w Tłuszczu">
+        <meta property="og:image" content="https://cheryx.github.io/spTluszcz/img/szkola.png">
+
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:title" content="Szkoła Podstawowa im. Jana Pawła II w Tłuszczu">
+        <meta property="twitter:description" content="Oficjalna strona Szkoły Podstawowej im. Jana Pawła II w Tłuszczu">
+        <meta property="twitter:image" content="https://cheryx.github.io/spTluszcz/img/szkola.png">
+
+        <!--FONTS-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!--FONTS-->
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="bg">
+            <div id="header">
+                Szkoła Podstawowa im. Jana Pawła II w Tłuszczu
+                <div class="a">
+                    ul. Kościelna 1, 05-240 Tłuszcz, tel. 297573002, e-mail: sp_tl_1@op.pl, Sekretariat: Pn-Pt 7:30-16:00
+                </div>
+            </div>
+            <div id="navbar">
+                <img src="img/favicon.png" style="width: 4vw; margin-right: 3vw;"/> 
+                <a href="#header"><div id="invite"><i class="fas fa-home"></i> Home</div></a>
+                <a href="news.html"><div id="invite"><i class="fas fa-newspaper"></i> Aktualności</div></a>
+                <a href="#news"><div id="invite"><i class="fas fa-chalkboard-teacher"></i> Nauczyciele</div></a>
+                <a href="#rada"><div id="invite"><i class="fas fa-user-graduate"></i> Dla Ucznia</div></a>
+                <a href="https://tluszcz.bip.net.pl" target="blank"><div id="invite"><i class="fas fa-info-circle"></i> BIP</div></a>
+            </div>
+        </div>
+        <div id="links">
+            <div id="title"><i class="fas fa-link"></i> Linki</div>
+            <a href="news_01.html"><div id="invite" class="smaller"><i class="fal fa-phone-laptop"></i> Nauczanie zdalne</div></a>
+            <a href="https://uonetplus.vulcan.net.pl/gminatluszcz" target="blank"><div id="invite" class="smaller"><i class="fas fa-key"></i> Dziennik - Zaloguj się</div></a>
+            <a href="plan.html"><div id="invite" class="smaller"><i class="fal fa-table"></i> Plan Lekcji</div></a>
+            <a href="http://hala.sptluszcz.pl/" target="blank"><div id="invite" class="smaller"><i class="fas fa-running"></i> Hala sportowa</div></a>
+            <div style="clear: both;"></div>
+        </div>
+        <div id="news">
+            <div id="title"><i class="fas fa-newspaper"></i> Aktualności</div>
+                    <!-- HOW2 AKRTYKUŁY:
+                        <img class="news" src="x"> - dodaj class="news"
+                        <h1> - <h6> - normalnie
+                        <p> - normalnie
+                        <a class="news" href="x"> - dodaj class="news"
+                        Przycisk: <a href="x"><div id="invite" class="smaller">Tresc</div></a>
+                        <div class="centered"> - Wyśrodkowuje przyciski
+                        <ul>, <ol>, <li> - normalnie
+                    -->
+            <a href="news.html">
+            <div id="new">
+                <img class="news" src="img/img_01_01.png" />
+                <h1>Nauczanie Zdalne</h1>
+                <h3>01.04.2020</h3>
+                <p>Przed zalogowaniem do platformy należy zapoznać się z regulaminem nauczania zdalnego i zasadami pracy on-line.</p>
+                <h2>Dostęp przez przeglądarkę internetową:</h2>
+            </div>
+            <div id="new">
+                <img class="news" src="img/img_01_01.png" />
+                <h1>Regulamin Nauczania Zdalnego</h1>
+                <h3>01.04.2020</h3>
+                <p>Regulamin nauczania zdalnego  w Szkole Podstawowej im. Jana Pawła II w Tłuszczu </p>
+            </div>
+            </a>
+        </div>
+        <div style="clear: both;"></div>
+        <div id="rada">
+            <div id="title" class="small"><i class="fas fa-chalkboard-teacher"></i> Nauczyciele</div>
+            <button onclick="hide()" class="b"><i class="fas fa-list"></i> Lista nauczycieli</button>
+            <div id="table">
+                <table>
+                <tr>
+                    <th>Nauczyciel</th>
+                    <th>Nauczany przedmiot</th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th>Nauczyciel</th>
+                    <th>Nauczany przedmiot</th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th>Nauczyciel</th>
+                    <th>Nauczany przedmiot</th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+                <tr>
+                    <th>Jan Kowalski </th>
+                    <th>Język Polski </th>
+                </tr>
+            </table>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div id="uczen">
+            <div id="title" class="small"><i class="fas fa-graduation-cap"></i> Dla ucznia</div>
+            <a href="http://sptluszcz.pl/new/wp-content/uploads/2020/09/STATUT-30-wrze%C5%9Bnia-2020-r.-1.pdf" target="blank"><div id="invite" class="smaller"><i class="fas fa-scroll"></i> Statut Szkoły</div></a>
+            <a href="plan.html"><div id="invite" class="smaller"><i class="fal fa-table"></i> Plan Lekcji</div></a>
+            <button onclick="hide4()" class="b"><i class="fal fa-bell-school"></i> Rozkład Dzwonków</button>
+            <div id="table4">
+                <table>
+                    <tr>
+                        <th>Lp.</th>
+                        <th>Godziny</th>
+                    </tr>
+                    <tr>
+                        <th>0</th>
+                        <th>7:05 - 7:50</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>8:00 - 8:45</th>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <th>8:55 - 9:40</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>9:50 - 10:35</th>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <th>10:45 - 11:30</th>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <th>11:50 - 12:35</th>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <th>12:50 - 13:35</th>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <th>13:50 - 14:35</th>
+                    </tr>
+                    <tr>
+                        <th>8</th>
+                        <th>14:45 - 15:30</th>
+                    </tr>
+                    <tr>
+                        <th>9</th>
+                        <th>15:40 - 16:25</th>
+                    </tr>
+                    <tr>
+                        <th>10</th>
+                        <th>16:35 - 17:20</th>
+                    </tr>
+                    <tr>
+                        <th>11</th>
+                        <th>17:30 - 18:15</th>
+                    </tr>
+                </table>
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+        <div id="samorzad">
+            <div id="title" class="small"><i class="fas fa-user-graduate"></i> Samorząd Uczniowski</div>
+            <a href="http://sptluszcz.pl/new/wp-content/uploads/2020/11/Regulamin-Samorz%C4%85du-Uczniowskiego-1-2.pdf" target="blank"><div id="invite" class="smaller"><i class="fas fa-scroll"></i> Regulamin Samorządu Uczniowskiego</div></a>
+            <div style="clear: both;"></div>
+        </div>
+        <div id="radar">
+            <div id="title" class="small"><i class="fas fa-user-friends"></i> Rada Rodziców</div>
+            <a href="http://sptluszcz.pl/new/wp-content/uploads/2020/09/Porz%C4%85dek-posiedzenia-Rady-Rodzic%C3%B3w-11-wrzesnia-2020-r.-1.pdf" target="blank"><div id="invite" class="smaller"><i class="fas fa-users"></i> Porządek posiedzenia Rady Rodziców</div></a>
+            <a href="http://sptluszcz.pl/new/wp-content/uploads/2020/09/REGULAMIN-RADY-RODZIC%C3%93W-2020-2021.pdf" target="blank"><div id="invite" class="smaller"><i class="fas fa-scroll"></i> Regulamin Rady Rodziców</div></a>
+            <button onclick="hide2()" class="b"><i class="fas fa-coins"></i> Preliminarz Wydatków</button>
+            <div id="table2">
+                <table>
+                    <tr>
+                        <th>Lp.</th>
+                        <th>Wydakti</th>
+                        <th>Kwota</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>Zakup nagród, dyplomów, książek</th>
+                        <th>8000</th>
+                    </tr>
+                </table>
+            </div>
+            <div style="clear: both;"></div>
+            <button onclick="hide3()" class="b"><i class="fas fa-user-friends"></i> Skład Rady Rodziców</button>
+            <div id="table3">
+                <table>
+                    <tr>
+                        <th>Oddział/Klasa</th>
+                        <th>Imię i Nazwisko</th>
+                    </tr>
+                    <tr>
+                        <th>0A</th>
+                        <th>Jan Kowalski</th>
+                    </tr>
+                </table>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div id="pedagog">
+            <div id="title" class="small"><i class="fas fa-clipboard"></i> Pedagog Szkolny</div>
+            <button onclick="hide5()" class="b"><i class="fas fa-stopwatch"></i> Godziny pracy Pedagoga</button>
+            <div id="table5">
+                <table>
+                    <tr>
+                        <th>Poniedziałek</th>
+                        <th>Wtorek</th>
+                        <th>Środa</th>
+                        <th>Czwartek</th>
+                        <th>Piątek</th>
+                    </tr>
+                    <tr>
+                        <th>9.00 – 15.00</th>
+                        <th>8.00 – 14.00</th>
+                        <th>11.30 – 15.30</th>
+                        <th>8.00 – 14.00</th>
+                        <th>9.30 – 15.30</th>
+                    </tr>
+                </table>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div id="psycholog">
+            <div id="title" class="small"><i class="fas fa-head-side-brain"></i> Psycholog Szkolny</div>
+            <button onclick="hide6()" class="b"><i class="fas fa-stopwatch"></i> Godziny pracy Psychologa</button>
+            <div id="table6">
+                <table>
+                    <tr>
+                        <th>Poniedziałek</th>
+                        <th>Wtorek</th>
+                        <th>Środa</th>
+                        <th>Czwartek</th>
+                        <th>Piątek</th>
+                    </tr>
+                    <tr>
+                        <th>11.30 - 16.30</th>
+                        <th>8.00 - 13.00</th>
+                        <th>10.00 - 15.30</th>
+                        <th>12.30 - 15.30</th>
+                        <th>7.30 - 10.30</th>
+                    </tr>
+                </table>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+            }
+        </script>
+        <script>
+            function hide() {
+                var x = document.getElementById("table");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            function hide2() {
+                var x = document.getElementById("table2");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            function hide3() {
+                var x = document.getElementById("table3");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            function hide4() {
+                var x = document.getElementById("table4");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            function hide5() {
+                var x = document.getElementById("table5");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            function hide6() {
+                var x = document.getElementById("table6");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+        <div id="bg" class="footer">
+            <div class="centered">
+                <a href="http://bip.sptluszcz.pl/" target="blank"><img class="smal" src="img/bip.png"></a>
+                <a href="http://tluszcz.pl/" target="blank"><img class="smal" src="img/um.png"></a>
+                <a href="gov.pl" target="blank"><img class="smal" src="img/godlo-polski.png"></a>
+                <a href="http://rodzina.org.pl/" target="blank"><img class="smal" src="img/logo_spJp2_klub.gif"></a>
+            </div>
+            "Prawdziwie wielki jest ten człowiek, który chce się czegoś nauczyć" - Jan Paweł II, Łowicz, 14 czerwca 1999 r.
+        </div>
+    </body>
+</html>

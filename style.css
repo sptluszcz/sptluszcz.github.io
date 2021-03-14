@@ -1,0 +1,382 @@
+html
+{
+    scroll-behavior: smooth;
+}
+a
+{
+    text-decoration: none;
+}
+#bg
+{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    transition-delay: 1s;
+}
+.sticky
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+body
+{
+    margin: 0;
+    transition: background-color 0.2s;
+}
+#header
+{
+    text-align: center;
+    padding: 80px 0 50px 0;
+    color: white;
+    font-size: 35pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+#navbar
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+    font-family: Montserrat, sans-serif;
+    color: #c8c2ff;
+    padding: 0 0 0 5%;
+    transition: background-color 1s;
+}
+button
+{
+    padding: 0.7vw 1.7vw;
+    border-radius: 0.5vw;
+    margin: 0.2%;
+    font-size: 1vw;
+    transition: background-color 0.2s;
+    border: 0.1vw solid #ffffff;
+    background-color: transparent;
+    color: white;
+    width: auto;
+    text-align: center;
+    display: block;
+    font-family: Montserrat, sans-serif;
+}
+button:hover
+{
+    cursor: pointer;
+}
+#invite
+{
+    padding: 0.8vw 1.5vw;
+    border-radius: 0.5vw;
+    margin: 0.8vw 0.6vw 0.8vw 0;
+    font-size: 1vw;
+    cursor: pointer;
+    width: auto;
+    text-align: center;
+    transition: background-color 0.2s !important;
+}
+#blank
+{
+    margin-left: 7%;
+}
+#blank.b
+{
+    margin-left: 66%;
+}
+.fa-moon
+{
+    margin-right: 11px;
+}
+#news
+{
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px 0 0 80px;
+}
+#links
+{
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px 0 0 80px;
+}
+#title
+{
+    font-weight: 700;
+    font-size: 35pt;
+}
+#new
+{
+    float: left;
+    width: 40%;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 60px 0 0;
+    padding-bottom: 25px;
+}
+h1, h2, h3, h4, h5, h6
+{
+    margin: 0;
+}
+img.news
+{
+    float: left;
+    margin-right: 11px;
+    border-radius: 2px;
+    width: 20%;
+}
+#title.small
+{
+    font-size: 25pt;
+}
+#rada
+{
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px 0 0 80px;
+}
+#bg.footer
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-top: 15px;
+    transition-delay: 2s;
+}
+#table
+{
+    display: none;
+}
+#table2
+{
+    display: none;
+}
+#table3
+{
+    display: none;
+}
+#table4
+{
+    display: none;
+}
+#table5
+{
+    display: none;
+}
+#table6
+{
+    display: none;
+}
+table
+{
+    margin: 12px 0 0 76px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    float: left;
+}
+td, th
+{
+    padding: 0.5vw;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13pt;
+}
+tr:nth-child(even)
+{
+    background-color: #0000002f;
+}
+#invite.smaller
+{
+    float: left;
+}
+button.b
+{
+    padding: 0.8vw 1.5vw;
+    border-radius: 0.5vw;
+    margin: 0.8vw 0.6vw 0vw 0;
+    font-size: 1vw;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s !important;
+    border: none;
+    clear: both;
+}
+#samorzad, #radar, #uczen, #pedagog, #psycholog
+{
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px 0 0 80px;
+}
+#new.personal
+{
+    width: auto;
+}
+div.a
+{
+    font-size: 14pt;
+    color: #ffffffcc;
+}
+p.c
+{
+    text-align: center;
+}
+.centered
+{
+    margin: auto;
+    width: max-content;
+    text-align: center;
+}
+li
+{
+    margin-top: 5px;
+}
+.unbugger
+{
+    padding-bottom: 100px;
+}
+#bg
+{
+    background: linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(247, 0, 255, 0.3)), url("img/headerlight.png");
+}
+.sticky
+{
+    background-color: #ba6b34;
+}
+#invite
+{
+    background-color: #7d4700;
+    color: #ffddb1;
+}
+#invite:hover 
+{
+    background-color: rgb(83, 37, 0); 
+}
+a
+{
+    color: #ffddb1;
+}
+#title
+{
+    color: #462714
+}
+#new
+{
+    color: #5f332b;
+    background-color: #ffe3d1;
+    border: 1px solid #462714;
+}
+img.news
+{
+    border: 1px solid #462714;
+}
+body
+{
+    background-color: #fffdfb;
+}
+#bg.footer
+{
+    color: #ffddb1;
+}
+table
+{
+    border: 2px solid #462714;
+    background-color: #ffece2;
+}
+td, th
+{
+    color: #5f332b;
+    border: 1px solid #99582f;
+}
+button.b
+{
+    background-color: #7d4700;
+    color: #ffddb1;
+}
+button.b:hover 
+{
+    background-color: #532500;
+}
+a.news
+{
+    color: #7c2e2e;
+    text-decoration: underline;
+}
+@media (prefers-color-scheme: dark) {
+    #bg
+    {
+        background: linear-gradient(0deg, rgba(55, 0, 255, 0.3), rgba(0, 195, 255, 0.3)), url("img/headerlight.png");
+    }
+    .sticky
+    {
+        background-color: rgb(52, 181, 186);
+    }
+    #invite
+    {
+        background-color: #008fc8;
+        color: #a1d7db;
+    }
+    #invite:hover 
+    {
+        background-color: #007fc8;
+    }
+    button
+    {
+        background-color: #ffffff;
+        color: #28262e;
+    }
+    body
+    {
+        background-color: #28262e;
+    }
+    a
+    {
+        color: #a1d7db;
+    }
+    #header
+    {
+        color: #ddfdff;
+    }
+    #title
+    {
+        color: #c4e6e9
+    }
+    #new
+    {
+        color: #e3f9ff;
+        background-color: #334e55;
+        border: 1px solid #32acbe;
+    }
+    img.news
+    {
+        border: 1px solid #32acbe;
+    }
+    #bg.footer
+    {
+        color: #a1d7db;
+    }
+    table
+    {
+        border: 2px solid #34a2b1;
+        background-color: #192629;
+    }
+    td, th
+    {
+        color: #57acc2;
+        border: 1px solid #2f9299;
+    }
+    button.b
+    {
+        background-color: #008fc8;
+        color: #a1d7db;
+    }
+    button.b:hover 
+    {
+        background-color: #007fc8;
+    }
+    a.news
+    {
+        color: #6db0d6;
+        text-decoration: underline;
+    }
+}
+img.smal
+{
+    height: auto;
+    width: 80px;
+    margin: 20px;
+}
