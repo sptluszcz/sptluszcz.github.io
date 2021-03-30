@@ -63,7 +63,7 @@ button:hover
 {
     cursor: pointer;
 }
-#invite
+#invite, .button
 {
     padding: 0.8vw 1.5vw;
     border-radius: 0.5vw;
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6
 {
     margin: 0;
 }
-img.news
+#new img
 {
     float: left;
     margin-right: 11px;
@@ -181,7 +181,7 @@ tr:nth-child(even)
 {
     background-color: #0000002f;
 }
-#invite.smaller
+#invite.smaller, .button
 {
     float: left;
 }
@@ -237,12 +237,12 @@ li
 {
     background-color: #ba6b34;
 }
-#invite
+#invite, .button
 {
     background-color: #7d4700;
     color: #ffddb1;
 }
-#invite:hover 
+#invite:hover , .button:hover 
 {
     background-color: rgb(83, 37, 0); 
 }
@@ -260,7 +260,7 @@ a
     background-color: #ffe3d1;
     border: 1px solid #462714;
 }
-img.news
+#new img
 {
     border: 1px solid #462714;
 }
@@ -291,7 +291,7 @@ button.b:hover
 {
     background-color: #532500;
 }
-a.news
+#news a
 {
     color: #7c2e2e;
     text-decoration: underline;
@@ -305,12 +305,12 @@ a.news
     {
         background-color: rgb(52, 181, 186);
     }
-    #invite
+    #invite, .button
     {
         background-color: #008fc8;
         color: #a1d7db;
     }
-    #invite:hover 
+    #invite:hover, .button:hover 
     {
         background-color: #007fc8;
     }
@@ -341,7 +341,7 @@ a.news
         background-color: #334e55;
         border: 1px solid #32acbe;
     }
-    img.news
+    #new img
     {
         border: 1px solid #32acbe;
     }
@@ -368,7 +368,7 @@ a.news
     {
         background-color: #007fc8;
     }
-    a.news
+    #news a
     {
         color: #6db0d6;
         text-decoration: underline;
