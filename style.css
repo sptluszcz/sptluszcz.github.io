@@ -309,12 +309,12 @@ button.b:hover
     }
     #invite, .button, button.b
     {
-        background-color: #00acf0;
+        background-color: #0096d1;
         color: #ffffff;
     }
     #invite:hover, .button:hover, button.b:hover
     {
-        background-color: #008ddf;
+        background-color: #0074b8;
     }
     button
     {
