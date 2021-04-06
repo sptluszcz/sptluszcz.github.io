@@ -307,14 +307,14 @@ button.b:hover
     {
         background-color: rgb(52, 181, 186);
     }
-    #invite, .button
+    #invite, .button, button.b
     {
-        background-color: #008fc8;
+        background-color: #00acf0;
         color: #ffffff;
     }
-    #invite:hover, .button:hover 
+    #invite:hover, .button:hover, button.b:hover
     {
-        background-color: #007fc8;
+        background-color: #008ddf;
     }
     button
     {
@@ -360,15 +360,6 @@ button.b:hover
     {
         color: #57acc2;
         border: 1px solid #2f9299;
-    }
-    button.b
-    {
-        background-color: #008fc8;
-        color: #a1d7db;
-    }
-    button.b:hover 
-    {
-        background-color: #007fc8;
     }
     #news a
     {
